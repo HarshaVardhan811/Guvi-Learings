@@ -1,0 +1,19 @@
+Differences Between Window,Screen,Document in JavaScript: iN Java Sript Window,Screen,Document represents different aspects of the browser environment.
+
+
+Window:
+
+a.It is the top-level object in the browser's object model.
+b.It represents the entire browser window or tab and serves as the global object for JavaScript code running in a web page.
+c.It contains properties and methods related to the browser window, such as alert(), setTimeout(), and location
+
+Screen:
+
+a.It provides information about the user's screen or monitor.
+b.It is a property of the window object and contains details like screen width, height, and color depth.
+c.We can use the screen object to determine the available screen space and adapt your web page's layout accordingly
+
+Document:
+a.It represents the HTML content of the current web page. 
+b.It is the root node of the Document Object Model (DOM), which is a tree-like structure that represents the elements and attributes of the HTML document. 
+c.It provides methods for navigating the DOM and manipulating the document's content 

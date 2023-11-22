@@ -1,0 +1,24 @@
+{
+    "name": "Harsha Vardhan",
+    "contact": {
+      "email": "harsha1131321mmu@gmail.com",
+      "phone": "8019404858",
+    },
+    "summary": "I am a highly skilled in HTML and i m ready to learn other programming languages.I am in the process of increasing my capacity in gaining the knowledge in Java Script",
+    "education": [
+      {
+        "degree": "Bachelor OF Arts",
+        "college": "Noble degree college",
+        "graduation_year": 2017
+      }
+    ],
+    
+    "skills": [
+      "HTML",
+      "JAVASCRIPT",
+      "Communication",
+      
+    ],
+    
+    "experience": " i have prepared for multiple competitive exams like UPSC and Regulatory Bodies which gained me vast amount of knowledge which will be definetely be useful our organisation "
+  }
