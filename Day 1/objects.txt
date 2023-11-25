@@ -1,0 +1,39 @@
+//Blog about objects and its internal representation in Javascript://
+
+JavaScript is a versatile programming language that has gained immense popularity due to its ability to create interactive web applications.
+ At the heart of JavaScript's functionality lies the concept of objects. Objects are the fundamental building blocks of JavaScript, serving as 
+ containers for data and behavior. Understanding how objects are represented internally in JavaScript is crucial for mastering the language and 
+ developing efficient code.
+
+Objects:
+
+In essence, objects are collections of key-value pairs. These key-value pairs are known as properties, and they store data associated with 
+the object. Properties can hold various data types, including primitive data types like numbers, strings, and booleans, as well as other 
+objects. Additionally, objects can possess methods, which are functions associated with the object and define its behavior.
+
+Internal Representation of Objects:
+
+JavaScript engines, the software responsible for executing JavaScript code, maintain an internal representation of objects. This representation
+ is typically implemented as a hash table, a data structure optimized for storing and retrieving key-value pairs. Each object is assigned a 
+ unique identifier, often referred to as its address, which serves as a reference to the object's location in memory.
+
+When an object is created, the JavaScript engine allocates a block of memory to store the object's properties and methods. The object's
+ identifier points to this memory location, providing a way to access the object's data and behavior.
+
+Properties and Methods:
+
+Properties are stored within the object's memory block, associated with their respective keys. When accessing a property using dot notation,
+ the JavaScript engine retrieves the value associated with the specified key from the object's memory location.
+
+Methods, on the other hand, are stored as functions within the object's memory block. When invoking a method using dot notation, the JavaScript
+ engine executes the method's function code, passing the object as the method's context.
+
+Prototypes and Inheritance:
+
+JavaScript objects follow a prototype-based inheritance model. Each object has an internal property called the prototype, which is another 
+object. The prototype object serves as a template for the inheriting object, providing default properties and methods that the inheriting
+ object can access. This inheritance mechanism allows for code reusability and efficient memory management.
+
+
+Understanding the internal representation of objects in JavaScript is essential for developing robust and efficient code. By comprehending 
+how objects are stored and managed in memory, programmers can optimize their code for performance and memory usage.

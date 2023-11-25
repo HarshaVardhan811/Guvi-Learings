@@ -1,0 +1,31 @@
+//Blog about IP address, port, HTTP methods, MAC Address://
+
+IP Address:
+
+An IP address is a unique numerical identifier assigned to each device connected to a computer network. It serves as the device's address on the network, allowing other devices to communicate with it. IP addresses are typically represented in dotted-decimal notation, consisting of four numbers separated by periods, each representing an 8-bit binary number.
+
+IP addresses are categorized into two main types: IPv4 and IPv6. IPv4 is the older and more widely used version, but it is limited to a maximum of 4.3 billion addresses. IPv6 is the newer and more advanced version, with an address space that can accommodate trillions of devices.
+
+Port:
+
+A port is a virtual communication channel associated with an IP address. It allows multiple applications or services to run on a single device, sharing a single IP address. Ports are represented by numbers ranging from 0 to 65535. Some well-known ports include:
+
+- Port 80:** HTTP (Hypertext Transfer Protocol), the protocol used for web browsing
+- Port 25:** SMTP (Simple Mail Transfer Protocol), the protocol used for sending email
+- Port 22:** SSH (Secure Shell), the protocol used for secure remote access to computers
+
+HTTP Methods:
+
+HTTP methods are specific verbs that indicate the type of action to be performed on a web resource. They are specified in the request line of an HTTP request message. Common HTTP methods include:
+
+- GET: Retrieves data from a specified resource
+- POST: Submits data to be processed to a specified resource
+- PUT: Updates an existing resource with new data
+- DELETE: Removes a specified resource
+
+
+MAC Address:
+
+A MAC address is a unique hardware identifier assigned to each network interface controller (NIC) in a computer network. It serves as the device's physical address on the network, allowing other devices to identify it uniquely. MAC addresses are typically represented in hexadecimal notation, consisting of six groups of two digits separated by colons, each representing a 4-bit binary number..
+
+MAC addresses are permanent and cannot be changed, unlike IP addresses that can be dynamically assigned. This makes MAC addresses useful for security purposes, such as access control and device tracking.
