@@ -2,39 +2,38 @@
 
 HTTP1.1 vs HTTP2:
 
+HTTP, or Hypertext Transfer Protocol, is the foundation of data communication for the World Wide Web. It establishes the rules and standards
+for how web servers and web browsers interact to deliver web pages.
 
-HTTP, or Hypertext Transfer Protocol, is the foundation of data communication for the World Wide Web. It establishes the rules and standards for how web servers and web browsers interact to deliver web pages.
+HTTP1.1 was introduced in 1999 and has been the dominant version for over two decades. However, with the increasing complexity of web pages
+and the demand for faster loading times, HTTP1.1 has started to show its limitations.
 
-HTTP1.1 was introduced in 1999 and has been the dominant version for over two decades. However, with the increasing complexity of web pages and the demand for faster loading times, HTTP1.1 has started to show its limitations.
-
-HTTP2 was introduced in 2015 to address the shortcomings of HTTP1.1 and improve web performance. It introduces several new features, such as multiplexing, header compression, and server push, that significantly enhance speed and efficiency.
+HTTP2 was introduced in 2015 to address the shortcomings of HTTP1.1 and improve web performance. It introduces several new features, such 
+as multiplexing, header compression, and server push, that significantly enhance speed and efficiency.
 
 Key Differences between HTTP1.1 and HTTP2
 
-
 1. Multiplexing:
 
-- HTTP1.1: Uses a single TCP connection for all requests and responses. This means that if one request is slow, all other requests must wait, leading to head-of-line blocking.
-
-- HTTP2: Allows multiple requests and responses to be sent over a single TCP connection simultaneously. This eliminates head-of-line blocking and significantly improves performance.
+- HTTP1.1: Uses a single TCP connection for all requests and responses. This means that if one request is slow, all other requests must wait
+, leading to head-of-line blocking.
+- HTTP2: Allows multiple requests and responses to be sent over a single TCP connection simultaneously. This eliminates head-of-line blocking
+ and significantly improves performance.
 
 2. Header Compression:
 
 - HTTP1.1: Sends headers in plain text format, which can be redundant and bulky.
-
 - HTTP2: Uses HPACK, an advanced header compression algorithm, to reduce the size of headers. This saves bandwidth and improves performance.
 
 3. Server Push:
 
 - HTTP1.1: The client must explicitly request each resource from the server.
-
 - HTTP2:Allows the server to proactively send resources to the client, anticipating the client's needs. This can reduce 
 page load times.
 
 4. Binary Framing:
 
 - HTTP1.1: Uses plain text messages, which can be inefficient and prone to errors.
-
 - HTTP2: Uses a binary framing layer to encode and encapsulate messages, making them more efficient and reliable.
 
 Impact on Web Performance
@@ -42,9 +41,9 @@ Impact on Web Performance
 HTTP2 offers several performance benefits over HTTP1.1:
 
 - Reduced Page Load Times: HTTP2 can significantly reduce page load times, especially for pages with multiple resources.
-
-- Improved Bandwidth Efficiency: HTTP2's header compression and multiplexing features reduce bandwidth usage, making it more efficient for mobile devices and networks with limited bandwidth.
-
+- Improved Bandwidth Efficiency: HTTP2's header compression and multiplexing features reduce bandwidth usage, making it more efficient for
+ mobile devices and networks with limited bandwidth.
 - Lower Latency: HTTP2's binary framing and other optimizations help reduce latency, making web pages more responsive.
 
-Overall, HTTP2 represents a significant advancement in web performance. It has become the standard for modern web applications and is supported by all major web browsers and servers.
+Overall,HTTP2 represents a significant advancement in web performance. It has become the standard for modern web applications and is 
+supported by all major web browsers and servers.
